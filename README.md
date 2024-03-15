@@ -23,6 +23,10 @@ The main processing loop reads each frame from the video file using hasFrame() a
 5. Hough Transform: Hough transform is used to detect straight lines representing lane markings within the ROI.
 
 6. Lane Detection and Drawing: Detected lane lines are plotted on the original frame using Hough lines and written to the output video using writeVideo() function.
+   
+## Processing Loop
+![output_snapshot](https://github.com/AhmedIsmail007/Lane-Detection-using-MATLAB/assets/108105551/caba50ee-9474-4166-aed7-8c777e394e2c)
+
 
 ## Usage
 To use this code, follow these steps:
